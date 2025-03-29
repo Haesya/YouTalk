@@ -1,0 +1,55 @@
+@media screen and (min-width: 1px) {
+    .main__bigArticle {
+        width: 100%;
+    }
+
+    .main__picture {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .redWoman {
+        height: 380px;
+    }
+
+    .chair, .girl {
+        height: 235px;
+    }
+
+    .redWoman > img, .hands > img, .chair > img, .girl > img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main__twoColumns {
+        flex-direction: row;
+    }
+
+    .redWoman, .hands {
+        width: 40%;
+    }
+
+    .main__textWithPicture{
+        width: 60%;
+    }
+
+    .main__lastBlock{
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main__bigArticle{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .main__bigArticle {
+        width: 65%;
+    }
+}

@@ -1,0 +1,122 @@
+.footer {
+    grid-area: footer;
+    display: grid;
+    background-color: #2963a3;
+    grid-template-columns: minmax(16px, auto) minmax(288px, 1200px) minmax(16px, auto);
+    grid-template-areas:
+            ". content ."
+            ". footer_line ."
+            ". lastwords .";
+    margin-top: 96px;
+}
+
+.footer__content {
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+
+.footer__links{
+    display: flex;
+    gap: 93px;
+}
+
+.footer__links__first, .footer__links__second {
+    display: flex;
+    flex-direction: column;
+    color: #eff5fb;
+    gap: 16px;
+    font-size: 16px;
+}
+
+.footer__links__first, .footer__links__second > div {
+    cursor: pointer;
+}
+
+.footer__email{
+    box-sizing: border-box;
+    display: flex;
+    width: 288px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.footer__email > input {
+    padding-left: 16px;
+    border: 0;
+}
+
+.footer__buttonArrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 48px;
+    background-color: #35B3a9;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 8px;
+}
+
+.footer__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.footer__icon > img {
+    width: 18px;
+    height: 18px;
+}
+
+.footer__line {
+    grid-area: footer_line;
+    border: 1px #9d9d9d solid;
+    margin-top: 24px;
+}
+
+.footer__lastwords{
+    grid-area: lastwords;
+    display: flex;
+    gap: 48px;
+    margin-top: 16px;
+    margin-bottom: 17px;
+    color: rgba(255,255,255,0.7)
+}
+
+.footer__aboutNews{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__contacts {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.member {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer__aboutNews__Text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #FFFFFF;
+}
+
+.footer__aboutNews__PD{
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+}

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: minmax(16px, auto) minmax(288px, 1200px) minmax(16px, auto);
+    grid-auto-rows: auto 1px 1fr auto;
+    grid-template-areas:
+    ". header ."
+    "header_line header_line header_line"
+    ". content ."
+    "footer footer footer";
+}

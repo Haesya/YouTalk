@@ -1,0 +1,4 @@
+.header_line{
+    grid-area: header_line;
+    border:1px solid #eff5fb;
+}

@@ -1,0 +1,44 @@
+.header {
+    grid-area: header;
+}
+
+.header__layout{
+    display: flex;
+    justify-content: space-between;
+}
+
+#burger_button {
+    width: 40px;
+    height: 40px;
+    background-image: url('../../images/burger.svg');
+    background-color: transparent;
+    border: 0;
+}
+
+.header__menu {
+    margin: 0;
+}
+
+.header__menu > ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__menu > ul > li {
+    cursor: pointer;
+}
+
+.header__choosePsyho {
+    color: #03b2a5;
+    background-color: #e3f5f5;
+    height: 48px;
+    font-size: 16px;
+    line-height: 100%;
+    border-radius: 4px;
+    border: 0;
+    padding: 0 20px;
+    cursor: pointer;
+}

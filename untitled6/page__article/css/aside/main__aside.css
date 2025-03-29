@@ -1,0 +1,219 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/*Первая боковая справка про регистрацию встречи*/
+
+.aside__register {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 16px;
+    background-color: #e6f0fd;
+}
+
+.aside__register > img {
+    width: 100%;
+}
+
+.aside__image {
+    height: 206px;
+    overflow: hidden;
+}
+
+.aside__image > img {
+    width: 100%;
+}
+
+.aside__blockText {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.aside__firstText {
+    text-align: center;
+}
+
+.aside__secondText {
+    font-size: 14px;
+}
+
+.aside__button {
+    width: 100%;
+}
+
+.aside__button > button{
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #35B3a9;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/*Вторая боковая справка про психолога Лилию и ее работу*/
+
+.aside__psych{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid #dedede;
+    background-color: #FFFFFF;
+}
+
+.aside__avatar {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+.aside__avatar > img {
+    width: 100%;
+}
+
+.aside__aboutPsych {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+}
+
+.aside__line {
+    width: 100%;
+    height: 0;
+    border: 1px solid #dedede;
+}
+
+/*Третья боковая справка с миленькой картинкой "Дарите заботу"*/
+
+.aside__giveCare{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 292px;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #2963a3;
+}
+
+.aside__rectangle {
+    height: 50%;
+    width: 100%;
+    z-index: 50;
+    background: linear-gradient(to top, transparent, #ffffff);
+}
+
+.aside__giveCare__text {
+    z-index: 100;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.YellowPresent, .BluePresent, .RedPresent, .Confetti {
+    position: absolute;
+}
+
+.YellowPresent {
+    z-index: 20;
+    rotate: 90deg;
+    top: 162px;
+    left: 25px;
+}
+
+.YellowPresent > img {
+    width: 128px;
+    height: 166px;
+}
+
+.BluePresent{
+    z-index: 10;
+    top: 130px;
+    left: 133px;
+}
+
+.BluePresent > img {
+    width: 190px;
+    height: 181px;
+}
+
+.RedPresent {
+    z-index: 30;
+    rotate: 270deg;
+    top: 180px;
+    left: 224px;
+}
+
+.RedPresent > img {
+    width: 90px;
+    height: 136px;
+}
+
+.Confetti {
+    z-index: 40;
+}
+
+.Confetti > img {
+    width: 100%;
+}
+
+/*Четвертая боковая справка про стоимость 8 видео-сессий*/
+
+.aside__videoSession {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 1px solid #dedede;
+    border-radius: 24px;
+    padding: 16px;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.aside__videoSession__text {
+    color: #2963a3;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.aside__problems {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.aside__cost {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.aside__buyButton > button{
+    width: 108px;
+    height: fit-content;
+    font-size: 16px;
+    padding: 12px 16px;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    background-color: #35B3a9;
+    cursor: pointer;
+}
+
+
+
