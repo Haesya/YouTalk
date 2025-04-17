@@ -1,0 +1,194 @@
+.main{
+    grid-area: content;
+}
+
+/*Главная -> Блог, и т.д.*/
+
+.main__navigation {
+    display: flex;
+    gap: 8px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.main__navigation > ul {
+    list-style: none;
+}
+
+.main__navigation__item::after{
+    content: '';
+    display: inline-block;
+    background-image: url('../../../_GENERAL/images/Arrow.svg');
+    background-position: center;
+    width: 16px;
+    height: 16px;
+}
+
+/*То, что находится между хэдером и футером, весь блок с контентом и aside*/
+
+.main__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__bigArticle {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    line-height: 24px;
+}
+
+.main__article__author > li {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.main__article__author {
+    display: flex;
+    gap: 4px;
+    margin-top: 8px;
+}
+
+li {
+    color: #03b2a5;
+}
+
+li span {
+    color: black;
+}
+ul li {
+    list-style-position: inside;
+}
+
+.main__gap8px {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.main__quote{
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    padding: 16px;
+    background-color: #f3f7fe;
+    margin-top: 32px;
+}
+
+.main__quote > p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main__whatCanWeDo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.main__centerquote {
+    text-align: center;
+}
+
+.main__exercise {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #fefaec;
+}
+
+.main__lightning {
+    display: flex;
+    justify-content: center;
+}
+
+.main__lightning__line {
+    border: 1px solid #0063a8;
+    width: 66px;
+    height: 0;
+    align-self: center;
+}
+
+.exerciseThree {
+    background-color: rgba(3, 178, 165, 10%);
+}
+
+.main__pictureWithText {
+    margin-top: 8px;
+}
+
+.main__twoColumns {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.main__lastBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.second__line {
+    margin-top: 48px;
+}
+
+.main__problemAndDialog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__haveAProblem {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 348px;
+    margin-top: 72px;
+}
+
+.main__problem {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.main__helpProblem {
+    line-height: 26px;
+}
+
+.main__lastChoosePsych {
+    width: 238px;
+    height: 60px;
+    padding: 20px 24px;
+    background-color: #16c8bb;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main__dialogPicture > img{
+    width: 369px;
+    height: 369px;
+    border-radius: 0 0 150px 150px;
+}
+
+.main__last__nav > ul > li {
+    color: #2963a3;
+    padding-left: 8px;
+    font-size: 14px;
+}
+
+.main__last__nav > ul > li:first-child {
+    list-style-type: none;
+}
+
+.main__last__nav > ul {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 24px;
+}

@@ -1,0 +1,68 @@
+@media screen and (max-width: 414px){
+    .header__logoImage {
+        margin-top: 11px;
+        margin-bottom: 11px;
+    }
+
+    #burger_button {
+        margin-top: 8px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .header__logoImage{
+        margin-top: 19px;
+        margin-bottom: 19px;
+    }
+
+    #burger_button {
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__logoImage > img {
+        width: 48px;
+        height: 34px;
+    }
+
+    .header__logoImage {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header__logoImage > img {
+        width: 51px;
+        height: 36px;
+    }
+
+    #burger_button {
+        margin-top: 18px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .header__choosePsyho {
+        display: none;
+    }
+
+    .header__menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #burger_button {
+        display: none;
+    }
+
+    .header__menu {
+        display: flex;
+    }
+
+    .header__choosePsyho {
+        margin-top: 14px;
+    }
+}

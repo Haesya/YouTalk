@@ -1,0 +1,123 @@
+.main {
+    grid-area: content;
+}
+
+.main__navigation {
+    display: flex;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.main__navigation > ul {
+    list-style: none;
+}
+
+.main__navigation__item::after{
+    content: '';
+    display: inline-block;
+    background-image: url('../../../_GENERAL/images/Arrow.svg');
+    background-position: center;
+    width: 16px;
+    height: 16px;
+}
+
+.main__blog {
+    margin-top: 24px;
+}
+
+.main__sorting {
+    display: flex;
+    gap: 8px;
+}
+
+.main__sorting__articles{
+    display: flex;
+    gap: 4px;
+    border: 1px solid #c1c5cd;
+    border-radius: 24px;
+    padding: 6px 8px;
+    white-space: nowrap;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.main__sorting__articles > img {
+    width: 18px;
+    height: 18px;
+}
+
+.main__articles {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.main__article{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 16px;
+    border: 1px solid #DEDEDE;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.main__article > img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main__article__words {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.main__button {
+    display: flex;
+    width: 182px;
+    color: #FFFFFF;
+    background-color: #35B3a9;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 0;
+    margin: 28px auto 0 auto;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.main__textTop{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.main__author {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.main__textBottom {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.main__date {
+    font-size: 12px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.main__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__picture > img {
+    width:100%;
+}

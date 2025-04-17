@@ -1,0 +1,33 @@
+@media screen and (min-width: 1px) {
+    aside {
+        width: 100%;
+    }
+
+    .aside__meetAndPsych, .aside__presentAndVideo {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .aside__meetAndPsych, .aside__presentAndVideo {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    aside {
+        width: 222px;
+    }
+
+    .aside__meetAndPsych, .aside__presentAndVideo {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    aside {
+        width: 282px
+    }
+}
